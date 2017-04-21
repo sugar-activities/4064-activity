@@ -1,0 +1,82 @@
+9
+
+* Add COPYING file
+* Init gthreads before using abiword
+* Fix close() related issues
+* Adapt to non-XO screen resolution
+* Use default font sizes
+
+8
+
+
+  * i18n: Changed layout re ticket #6110
+  
+
+JokeMachine-7.xo
+
+  * Updated: Expanded copyright header on source files
+  * Updated: Reflect changes in sugar.graphics.objectchooser
+  * Fix: Widgets now render correctly on first expose event on XO hardware
+  * Fix: Background color of sound selector is now right color on XO hardware
+  * Fix: Lesson plans are no longer being opened as text by AbiWord on XO
+         hardware
+  * Fix: Cursor now changes to hand icon when over sound selector
+  * Added: AUTHORS file
+
+   -- Antoine van Gelder <hummingbird@hivemind.net>  Fri, 11 Jan 2008
+
+
+JokeMachine-6.xo
+
+  * Feature: Added lesson plans.
+
+   -- Antoine van Gelder <hummingbird@hivemind.net>  Tue, 13 Nov 2007
+
+
+JokeMachine-5.xo
+
+  * Feature: If no sound set, play default sound: laugh_attack.au
+  * Fixed: Activity icon now adopts users color scheme
+  * Fixed: Temp directory now rooted off activity.get_activity_root()
+  * Fixed: Moved locale/ dir back to po/
+  * Fixed: Temp filenames now created using more secure tempfile.mkstemp()
+  * i18n: Changed pot files to utf-8
+
+   -- Antoine van Gelder <hummingbird@hivemind.net>  Mon, 29 Oct 2007
+
+
+JokeMachine-4.xo
+
+  * Tested: Build# 622 and sugar-jhbuild
+
+   -- Antoine van Gelder <hummingbird@hivemind.net>  Mon, 29 Oct 2007
+
+
+JokeMachine-3.xo
+
+  * Feature: Put alerts up when joke submitted and approved over mesh 
+  * Feature: Put alert up advising patience when joining a shared jokebook
+  * Feature: Made Lesson Plans button work 
+  * Feature: Safe fallback for builds without sugar.alert
+  * Feature: Hooked LanguageCombo up
+  * i18n: Created (a rough!) Afrikaans translation
+  * Fixed: Prepended Cover on preview 
+  * Fixed: Don't hardcode JokeEditor delete button position 
+  * Fixed: On read jokebook & empty -> "Edit My Jokes" -> Go to edit my jokes tab  
+  * Updated :Mesh code for dbus tubes changes 
+
+   -- Antoine van Gelder <hummingbird@hivemind.net>  Mon, 29 Oct 2007
+
+
+JokeMachine-2.xo
+
+  * Feature: Initial Import w/ basic mesh support
+  * Feature: Adapt UI depending on whether you are sharing or joining
+  * Feature: Broadcast accepted submissions back to buddies
+  * Feature: Select a sound to play on Joke punchlines  
+  * Fixed: Rename Jokebook Info -> Edit Jokebook Cover  
+  * Fixed: Preview mode shows make jokebook button - it shouldn't  
+  * Fixed: Submit a Joke button -> only for buddies
+  * Fixed: Deprecated theme_widget() in favor of a custom gtkrc 
+
+   -- Antoine van Gelder <hummingbird@hivemind.net>  Sun, 28 Oct 2007

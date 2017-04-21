@@ -1,0 +1,8 @@
+[Activity]
+name = Joke Machine
+bundle_id = org.worldwideworkshop.JokeMachineActivity
+exec = sugar-activity JokeMachineActivity.JokeMachineActivity -s
+icon = activity-jokemachine
+activity_version = 9
+host_version = 1
+show_launcher = 1
